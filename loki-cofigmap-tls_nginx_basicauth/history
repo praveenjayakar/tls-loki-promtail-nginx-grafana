@@ -1,0 +1,238 @@
+    1  whoami
+    2  ip addr
+    3  ls
+    4  ecit
+    5  exit
+    6  ls
+    7  vim ingress.yml 
+    8  kubectl apply -f ingress.yml 
+    9  vim ingress.yml 
+   10  kubectl apply -f ingress.yml 
+   11  kubectl get svc -A
+   12  vim ingress.yml 
+   13  kubectl apply -f ingress.yml 
+   14  vim ingress.yml 
+   15  kubectl apply -f ingress.yml 
+   16  vim ingress.yml 
+   17  kubectl apply -f ingress.yml 
+   18  vim ingress.yml 
+   19  kubectl apply -f ingress.yml 
+   20  vim ingress.yml 
+   21  kubectl apply -f ingress.yml 
+   22  vim ingress.yml 
+   23  ls
+   24  ssh root@localhost
+   25  exit
+   26  ls
+   27  kubectl get nodes
+   28  sudo snap install helm --classic
+   29  helm version
+   30  ls
+   31  helm upgrade --install ingress-nginx ingress-nginx   --repo https://kubernetes.github.io/ingress-nginx   --namespace ingress-nginx --create-namespace
+   32  vim example
+   33  kubectl get ns
+   34  kubectl get pods -n ingress-nginx
+   35  kubectl get pods -n ingress-nginx 
+   36  kubectl get deploy -n ingress-nginx
+   37  ls
+   38  vim nginx.yml
+   39  kubectl apply -f nginx.yml 
+   40  ls
+   41  vim ingress.yml
+   42  kubectl apply -f ingress.yml 
+   43  kubectl get ing
+   44  kubectl get IngressClass
+   45  kubectl get ing
+   46  kubectl get svc -n ingress-nginx
+   47  kubectl get svc
+   48  ls
+   49  vim nginx.yml 
+   50  ls
+   51  vim ingress.yml 
+   52  kubectl apply -f ingress.yml 
+   53  kubectl get svc
+   54  kubectl get ing
+   55  htpasswd -c auth admin
+   56  apt install apache2-utils
+   57  htpasswd -c auth admin
+   58  ls
+   59  cat auth 
+   60  kubectl create secret generic basic-auth --from-file=auth
+   61  kubectl get secret
+   62  kubectl describe secret basic-auth
+   63  kubectl describe secret basic-auth -o yaml
+   64  kubectl edit secret basic-auth -o yaml
+   65  kubectl get secret basic-auth -o yaml
+   66  ls
+   67  vim ingress.yml 
+   68  kubectl apply -f ingress.yml 
+   69  ls
+   70  ls
+   71  vim ingress.yml 
+   72  ls
+   73  kubectl apply -f ingress.yml 
+   74  vim ingress.yml 
+   75  kubectl apply -f ingress.yml 
+   76  vim ingress.yml 
+   77  kubectl apply -f ingress.yml 
+   78  vim ingress.yml 
+   79  kubectl apply -f ingress.yml 
+   80  vim ingress.yml 
+   81  kubectl apply -f ingress.yml 
+   82  vim ingress.yml 
+   83  kubectl apply -f ingress.yml 
+   84  vim ingress.yml 
+   85  kubectl apply -f ingress.yml 
+   86  ls
+   87  vim loki.yaml
+   88  ls
+   89  kubectl apply -f loki.yaml 
+   90  kubectl get pods
+   91  kubectl logs loki-794f77db56-fh6w4
+   92  vim loki.yaml
+   93  kubectl apply -f loki.yaml 
+   94  kubectl get pods
+   95  kubectl get pods,svc
+   96  ls
+   97  vim nginx.yml 
+   98  ls
+   99  vim ingress.yml 
+  100  kubectl apply -f loki.yaml 
+  101  kubectl apply -f ingress.yml 
+  102  vim ingress.yml 
+  103  kubectl get svc
+  104  vim ingress.yml 
+  105  kubectl apply -f ingress.yml 
+  106  vim ingress.yml 
+  107  kubectl apply -f ingress.yml 
+  108  vim ingress.yml 
+  109  kubectl apply -f ingress.yml 
+  110  kubectl get svc
+  111  curl 10.100.50.227:3100
+  112  curl 10.100.50.227:3100/ready
+  113  curl 10.100.50.227:3100/ready --watch
+  114  curl 10.100.50.227:3100/ready 
+  115  ls
+  116  vim ingress.yml 
+  117  kubectl apply -f ingress.yml 
+  118  vim ingress.yml 
+  119  kubectl apply -f ingress.yml 
+  120  vim ingress.yml 
+  121  kubectl apply -f ingress.yml 
+  122  ls
+  123  vim ingress.yml 
+  124  kubectl apply -f ingress.yml 
+  125  kubectl get ing
+  126  ls
+  127  vim ingress.yml 
+  128  kubectl apply -f ingress.yml 
+  129  vim ingress.yml 
+  130  kubectl apply -f ingress.yml 
+  131  vim ingress.yml 
+  132  kubectl apply -f ingress.yml 
+  133  ls
+  134  vim ingress.yml 
+  135  kubectl apply -f ingress.yml 
+  136  vim ingress.yml 
+  137  kubectl apply -f ingress.yml 
+  138  vim ingress.yml 
+  139  kubectl apply -f ingress.yml 
+  140  ls
+  141  vim loki-config-map.yml
+  142  ls
+  143  kubectl get pods
+  144  kubectl exec -it loki-6656dcdc8c-thgpx -- /bin/sh
+  145  ls
+  146  vim loki-config-map.yml
+  147  ls
+  148  vim loki.yaml 
+  149  ls
+  150  vim loki.yaml 
+  151  ls
+  152  kubectl get secrets
+  153  vim loki.yaml 
+  154  ls
+  155  cat loki-config-map.yml 
+  156  vim loki.yaml 
+  157  ls
+  158  kubectl apply -f loki-config-map.yml 
+  159  kubectl get cm
+  160  kubectl describe cm loki-config
+  161  ls
+  162  kubectl apply -f loki.yaml 
+  163  kubectl delete -f loki.yaml 
+  164  kubectl apply -f loki.yaml 
+  165  kubectl delete -f loki.yaml 
+  166  cat loki.yaml 
+  167  kubectl apply -f loki.yaml 
+  168  vim loki.yaml 
+  169  kubectl apply -f loki.yaml 
+  170  vim loki.yaml 
+  171  kubectl apply -f loki.yaml 
+  172  vim loki.yaml 
+  173  kubectl delete -f loki.yaml 
+  174  kubectl apply -f loki.yaml 
+  175  kubectl get pods
+  176  kubectl logs loki-5687c94b7c-4kmnf
+  177  kubectl delete -f loki.yaml 
+  178  ls
+  179  vim loki.yaml 
+  180  ls
+  181  vim loki-config-map.yml 
+  182  kubectl delete -f loki.yaml 
+  183  ls
+  184  kubectl apply -f loki-config-map.yml 
+  185  kubectl apply -f loki.yaml 
+  186  kubectl get pods
+  187  k describe pod loki-5687c94b7c-6f5qs
+  188  kubectl get pods
+  189  k logs loki-5687c94b7c-6f5qs
+  190  kubectl get secrets
+  191  kubectl get secrets loki-tls-secret -o yaml
+  192  vim loki-config-map.yml 
+  193  kubectl apply -f loki-config-map.yml 
+  194  ls
+  195  kubectl delete -f loki.yaml 
+  196  kubectl apply -f loki.yaml 
+  197  kubectl get pods
+  198  k logs loki-5687c94b7c-dj652
+  199  ls
+  200  vim loki.yaml 
+  201  ls
+  202  cat loki-config-map.yml 
+  203  ls
+  204  kubectl delete -f loki-config-map.yml 
+  205  kubectl delete -f loki.yaml 
+  206  >loki.yaml 
+  207  vim loki.yaml 
+  208  kubectl apply -f loki.yaml 
+  209  kubectl get pods
+  210  kubectl get secrets
+  211  kubectl get secret loki-tls-secret -o yaml
+  212  ls
+  213  k get pods
+  214  k logs loki-5687c94b7c-f5r2q
+  215  ls
+  216  vim loki.yaml 
+  217  kubectl apply -f loki.yaml 
+  218  kubectl get pod
+  219  k delete pod loki-5687c94b7c-f5r2q
+  220  kubectl get pod
+  221  kubectl exec -it loki-5687c94b7c-52vmm -- /bin/sh
+  222  ls
+  223  cat loki.crt 
+  224  ls
+  225  pwd
+  226  ls
+  227  rm loki-config-map.yml 
+  228  ls
+  229  cat loki.yaml 
+  230  k get pods
+  231  k logs loki-5687c94b7c-52vmm
+  232  k get svc
+  233  k edit svc loki
+  234  k get svc
+  235  ls
+  236  histort
+  237  history
+  238  history > history
